@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Sultanali Baltabay</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html">Task 1 & 2</a>
+        <a href="exercise1/index.html">Task 3</a>
+        <a href="task4.html">Task 4</a>
+    </nav>
+
+    <div class="wrapper">
+        <div class="content-full">
+
+            <h2 id="main-table-title">Student Grades</h2>
+
+            <table class="simple-table">
+                <tr>
+                    <th>Student Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+                <tr>
+                    <td rowspan="2">Sultanali</td>
+                    <td>Web Tech</td>
+                    <td>A</td>
+                </tr>
+                <tr>
+                    <td>Database</td>
+                    <td>A-</td>
+                </tr>
+                <tr class="highlight">
+                    <td>Alikhan</td>
+                    <td>Java</td>
+                    <td>A+</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total Result</td>
+                    <td>Passed</td>
+                </tr>
+            </table>
+
+            <br><hr><br>
+
+            <h2 id="main-form-title">Feedback Form</h2>
+
+            <div class="form-box">
+                <form>
+                    <label>Name:</label><br>
+                    <input type="text" placeholder="Enter name"><br><br>
+
+                    <label>Email:</label><br>
+                    <input type="email" placeholder="Enter email"><br><br>
+
+                    <label>Role:</label><br>
+                    <select>
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="other">Other</option>
+                    </select><br><br>
+
+                    <label>Do you like the course?</label><br>
+                    <input type="radio" name="like" value="yes"> Yes
+                    <input type="radio" name="like" value="no"> No
+                    <br><br>
+
+                    <label>Comments:</label><br>
+                    <textarea rows="4" placeholder="Your message..."></textarea><br><br>
+
+                    <input type="submit" value="Send" class="send-btn">
+                </form>
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+    </div>
+
+    <footer>
+        <p>Astana IT University | SE-2529</p>
+    </footer>
+</body>
+</html>

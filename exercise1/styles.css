@@ -1,0 +1,127 @@
+/* Walter White Tribute Page Stylesheet - Sultanali Baltabay */
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #222222;
+    padding: 12px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    color: #ffcc00; /* classic yellow on hover */
+    text-decoration: underline;
+}
+
+/* Main tribute page container */
+.tribute-container {
+    max-width: 700px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #333333; /* solid simple border instead of shadow */
+}
+
+/* Tribute Header */
+.tribute-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.tribute-header h1 {
+    color: #800000; /* maroon */
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555555;
+    font-style: italic;
+    font-size: 16px;
+    margin-top: 0;
+}
+
+h2, h3 {
+    color: #800000; /* maroon */
+    border-bottom: 1px solid #333333;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+/* Image box with Walter White photo */
+.image-box {
+    text-align: center;
+    background-color: #eef2f3;
+    padding: 15px;
+    margin: 20px 0;
+    border: 1px solid #cccccc;
+}
+
+.image-box img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #555555;
+}
+
+.img-caption {
+    font-size: 13px;
+    color: #555555;
+    margin-top: 8px;
+}
+
+/* Lists and paragraphs */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* Wikipedia Link section */
+.wiki-link-box {
+    text-align: center;
+    margin-top: 25px;
+    border-top: 1px dashed #cccccc;
+    padding-top: 15px;
+}
+
+.wiki-btn {
+    display: inline-block;
+    background-color: #800000; /* maroon button */
+    color: #ffffff;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #000000;
+}
+
+.wiki-btn:hover {
+    background-color: #b30000; /* lighter red */
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #222222;
+    color: #ffffff;
+    margin-top: 40px;
+}

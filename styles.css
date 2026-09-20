@@ -1,0 +1,265 @@
+/* Main Website Stylesheet - Sultanali Baltabay */
+
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+/* Header (if used) */
+header {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #222222;
+    padding: 12px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar a:hover {
+    color: #ffcc00; /* classic yellow on hover */
+    text-decoration: underline;
+}
+
+/* Main content wrapper */
+.wrapper {
+    width: 900px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 15px;
+}
+
+/* Sidebar with links */
+.sidebar {
+    float: left;
+    width: 240px;
+    background-color: #fdfdfd;
+    border: 1px solid #bbbbbb;
+    padding: 15px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    border-bottom: 2px solid #333333;
+    padding-bottom: 5px;
+    color: #000080; /* navy */
+}
+
+.sidebar ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.sidebar ul li {
+    margin-bottom: 8px;
+}
+
+.sidebar ul li a {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.sidebar-info {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #555555;
+    border-top: 1px dashed #cccccc;
+    padding-top: 10px;
+}
+
+/* Main content area */
+.content {
+    float: right;
+    width: 610px;
+}
+
+.content-full {
+    width: 100%;
+    text-align: center;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #000080; /* navy */
+}
+
+h2 {
+    border-bottom: 2px solid #999999;
+    padding-bottom: 5px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: #000080;
+    margin-top: 15px;
+}
+
+p {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+a {
+    color: #0000ee;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Profile Card */
+.card {
+    background-color: #fafafa;
+    border: 2px solid #333333; /* solid dark border */
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 130px;
+    height: 130px;
+    border: 2px solid #333333;
+    border-radius: 8px; /* simple rounded corners */
+}
+
+.group-tag {
+    font-weight: bold;
+    color: #cc0000; /* red tag to make it pop */
+    margin-top: 5px;
+}
+
+/* Link Button style */
+.link-btn {
+    display: inline-block;
+    background-color: #000080; /* navy */
+    color: #ffffff;
+    padding: 8px 12px;
+    border: 1px solid #000000;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.link-btn:hover {
+    background-color: #0000ee;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Table Design (Task 4) */
+table {
+    width: 80%;
+    margin: 20px auto; /* centers the table */
+    border-collapse: collapse;
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #333333;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.highlight {
+    background-color: #ffffcc; /* simple yellow highlight */
+    font-weight: bold;
+}
+
+/* Form Design (Task 4) */
+form {
+    width: 70%;
+    margin: 20px auto; /* centers the form */
+    text-align: left; /* keeps form fields left-aligned */
+    background-color: #fafafa;
+    border: 1px solid #333333;
+    padding: 15px;
+}
+
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.radio-label {
+    display: inline;
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 95%;
+    padding: 5px;
+    border: 1px solid #333333;
+}
+
+/* Styling submit buttons */
+.submit-btn, .send-btn, input[type="submit"] {
+    background-color: #000080;
+    color: #ffffff;
+    border: 1px solid #000000;
+    padding: 8px 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.submit-btn:hover, .send-btn:hover, input[type="submit"]:hover {
+    background-color: #0000ee;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background-color: #222222;
+    color: #ffffff;
+    margin-top: 30px;
+    font-size: 14px;
+}

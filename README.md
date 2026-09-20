@@ -26,4 +26,4 @@ Clone the repository and open `index.html` in your browser, or check the live ve
 
 ##  Author
 
-Sultanali — Group 2029
+Sultanali — Group SE-2529
